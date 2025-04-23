@@ -25,7 +25,7 @@ export default function BotForm({ onAddBot }) {
       timestamp: new Date().toISOString()
     };
 
-    fetch('http://localhost:3000/bots', {
+    fetch('https://bot-tracker-app-2.onrender.com/bots', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(newBot)

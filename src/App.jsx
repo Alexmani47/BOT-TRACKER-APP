@@ -17,7 +17,7 @@ function App() {
   const [searchQuery, setSearchQuery] = useState('');
 
   useEffect(() => {
-    fetch('http://localhost:3000/bots')
+    fetch('https://bot-tracker-app-2.onrender.com/bots')
       .then(res => res.json())
       .then(setBots)
       .catch(err => console.error("Failed to fetch bots:", err));
@@ -26,7 +26,7 @@ function App() {
   const addBot = (newBot) => setBots(prev => [...prev, newBot]);
 
   const deleteBot = (id) => {
-    fetch(`http://localhost:3000/bots/${id}`, {
+    fetch(`https://bot-tracker-app-2.onrender.com/${id}`, {
       method: 'DELETE',
     }).then(() => {
       setBots(prev => prev.filter(bot => bot.id !== id));

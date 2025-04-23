@@ -31,7 +31,7 @@ export default function BotPerformance({ bots, setBots }) {
       performance: [...(bot.performance || []), newPerformance]
     };
 
-    fetch(`http://localhost:3000/bots/${bot.id}`, {
+    fetch(`https://bot-tracker-app-2.onrender.com/bots/${bot.id}`, {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(updatedBot)
