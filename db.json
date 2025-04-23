@@ -1,0 +1,55 @@
+{
+  "bots": [
+    {
+      "id": "3",
+      "name": "Breakout Beast",
+      "status": "Active",
+      "strategy": "Volatility Spike",
+      "result": "Profit",
+      "amount": 3,
+      "timestamp": "2025-04-15T14:20:00Z",
+      "performance": [
+        {
+          "date": "2025-04-15",
+          "time": "14:20",
+          "result": "Profit",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Trend Dominator",
+      "status": "Active",
+      "strategy": "EMA + MACD",
+      "result": "Profit",
+      "amount": 2.75,
+      "timestamp": "2025-04-14T17:45:00Z",
+      "performance": [
+        {
+          "date": "2025-04-14",
+          "time": "17:45",
+          "result": "Profit",
+          "amount": 2.75
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Scalp Ghost",
+      "status": "Paused",
+      "strategy": "Micro Scalping",
+      "result": "Loss",
+      "amount": -3.2,
+      "timestamp": "2025-04-13T05:50:00Z",
+      "performance": [
+        {
+          "date": "2025-04-13",
+          "time": "05:50",
+          "result": "Loss",
+          "amount": -3.2
+        }
+      ]
+    }
+  ]
+}
